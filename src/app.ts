@@ -13,6 +13,6 @@ app.get("/", (req: any, res: any) => {
   res.json({name})
 })
 
-app.listen(4000, () => {
-  console.log("App running on port 4000")
+app.listen(process.env.PORT || 3000, () => {
+  console.log("App running on port " + process.env.PORT || 3000)
 })
