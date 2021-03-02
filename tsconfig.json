@@ -4,9 +4,9 @@
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
-    "outDir": "./out",
+    "outDir": "./dist",
     "sourceMap": true,
-    "moduleResolution": "Node",
+    "moduleResolution": "Node"
   },
   "include": ["src/**/*", "./src/*"],
   "exclude": ["node_modules", "**/*.spec.ts"]
