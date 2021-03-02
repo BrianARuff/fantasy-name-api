@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "amd",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outDir": "./out",
+    "sourceMap": true,
+    "moduleResolution": "Node",
+  },
+  "include": ["src/**/*", "./src/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
